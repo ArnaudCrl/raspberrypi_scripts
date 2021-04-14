@@ -1,0 +1,2 @@
+# Displays folder larger than 1GB
+sudo du -xh / | grep -P "G\t"
